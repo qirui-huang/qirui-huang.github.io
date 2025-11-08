@@ -1,5 +1,5 @@
 ---
-title: "Patent: Signal Transmission Method and Apparatus"
+title: "Signal Transmission Method and Apparatus"
 collection: publications
 category: patents
 permalink: /publication/patent-2024-cn-signal-transmission

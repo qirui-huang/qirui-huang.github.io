@@ -1,5 +1,5 @@
 ---
-title: "Patent: Capacitive Sensor, Electronic Device and Electronic Device Control Method"
+title: "Capacitive Sensor, Electronic Device and Electronic Device Control Method"
 collection: publications
 category: patents
 permalink: /publication/patent-2022-cn-capacitive-sensor-control

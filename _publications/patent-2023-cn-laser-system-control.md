@@ -1,5 +1,5 @@
 ---
-title: "Patent: Laser System and Laser System Control Method"
+title: "Laser System and Laser System Control Method"
 collection: publications
 category: patents
 permalink: /publication/patent-2023-cn-laser-system-control

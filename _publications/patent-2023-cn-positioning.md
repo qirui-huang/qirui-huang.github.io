@@ -1,5 +1,5 @@
 ---
-title: "Patent: Positioning Method, Transmit End, Receive End and Computer-Readable Storage Medium"
+title: "Positioning Method, Transmit End, Receive End and Computer-Readable Storage Medium"
 collection: publications
 category: patents
 permalink: /publication/patent-2023-cn-positioning

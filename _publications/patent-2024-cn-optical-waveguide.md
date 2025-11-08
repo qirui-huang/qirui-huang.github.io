@@ -1,5 +1,5 @@
 ---
-title: "Patent: Optical Waveguide Device, Optical Chip, Communication Device"
+title: "Optical Waveguide Device, Optical Chip, Communication Device"
 collection: publications
 category: patents
 permalink: /publication/patent-2024-cn-optical-waveguide

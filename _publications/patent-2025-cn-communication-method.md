@@ -1,5 +1,5 @@
 ---
-title: "Patent: Communication Method, Apparatus and Readable Storage Medium"
+title: "Communication Method, Apparatus and Readable Storage Medium"
 collection: publications
 category: patents
 permalink: /publication/patent-2025-cn-communication-method

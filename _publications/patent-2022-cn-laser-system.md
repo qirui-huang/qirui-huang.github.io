@@ -1,5 +1,5 @@
 ---
-title: "Patent: A Laser System"
+title: "A Laser System"
 collection: publications
 category: patents
 permalink: /publication/patent-2022-cn-laser-system

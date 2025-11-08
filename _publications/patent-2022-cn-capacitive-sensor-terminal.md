@@ -1,5 +1,5 @@
 ---
-title: "Patent: Capacitive Sensor, Terminal Device, Sensor Component and Detection Method"
+title: "Capacitive Sensor, Terminal Device, Sensor Component and Detection Method"
 collection: publications
 category: patents
 permalink: /publication/patent-2022-cn-capacitive-sensor-terminal

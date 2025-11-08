@@ -1,5 +1,5 @@
 ---
-title: "Patent: Beam Control Method and Apparatus"
+title: "Beam Control Method and Apparatus"
 collection: publications
 category: patents
 permalink: /publication/patent-2024-us-beam-control
