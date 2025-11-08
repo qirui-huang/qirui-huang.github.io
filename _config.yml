@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Qirui Huang"
 title_separator          : "-"
 name                     : &name "Qirui Huang"
-description              : &description "personal description"
+description              : &description "Regional Head of Huawei Central Research Institute (Singapore), AI & Technology Innovation Leader"
 url                      : https://qirui-huang.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/qirui-huang"
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Qirui Huang"
   pronouns         : # example: "she/her"  
-  bio              : ""
+  bio              : "Regional Head, Central Research Institute - Huawei Technologies"
   location         : "Singapore"
-  employer         : "Huawei Singapore Research Centre"
+  employer         : "Huawei Technologies"
   uri              : # URL
   email            : "huang.qirui@ieee.org" 
 
@@ -37,9 +37,9 @@ author:
   googlescholar    : "https://scholar.google.com.hk/citations?user=3dMdb0sAAAAJ&hl=en"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL - Update with your ORCID if you have one
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -47,13 +47,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "qirui-huang"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -62,7 +62,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "qirui-huang" # Update with your LinkedIn username if desired
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
