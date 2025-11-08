@@ -1,0 +1,12 @@
+---
+title: "Patent: Capacitive Sensor, Electronic Device, and Electronic Device Control Method"
+collection: publications
+category: manuscripts
+permalink: /publication/patent-2023-us-capacitive-sensor-control
+excerpt: 'US Patent - Capacitive sensor and control method for electronic devices.'
+date: 2023-01-01
+venue: 'US Patent'
+citation: 'Gang Ni, Xijin Tan, Qirui Huang, Lifeng Sun, Huimin Zhang, Yida Li. (2023). &quot;Capacitive Sensor, Electronic Device, and Electronic Device Control Method.&quot; US Patent US20230015735A1.'
+---
+
+**Patent Number:** US20230015735A1

@@ -10,5 +10,3 @@ citation: 'Z. Yang, Z. Luo, D. Shi, J. Ji, B. Wang, H. Li, Q. Huang and W. Gan. 
 ---
 
 **APSIPA ASC 2025 Best Workshop Paper**
-
-This paper proposes a meta-learning approach for regional initialization of control filters in headphone active noise control systems, achieving superior performance and faster convergence.
