@@ -14,3 +14,8 @@ Dr. Huang's expertise covers large language and multimodal models (Transformers,
 Prior to Huawei, Dr. Huang pioneered an AI driven network defense system at the Singapore University of Technology & Design, one of the earliest applications of AI in cyber security. He has authored 50+ peer reviewed papers, held 16 patents, and secured USD 10+ million in external research funding.
 
 Beyond technical leadership, he shapes Huawei's medium- and long-term innovation strategy through a series of widely cited insight reports that guide corporate investment in AI and high performance computing. Dr. Huang is a Senior Member of IEEE and OSA, and a member of ACM and AAAI. He received his Ph.D. in Electrical & Electronic Engineering from Nanyang Technological University, Singapore.
+
+JOB OPENINGS NOW!! (Updated in Nov 2025):
+- Openings for AI researcher, and research interns are available!
+- Base locations: Singapore.
+- Send your CV to huang.qirui@ieee.org.
