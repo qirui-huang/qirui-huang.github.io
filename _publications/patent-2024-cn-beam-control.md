@@ -1,7 +1,7 @@
 ---
 title: "Patent: Beam Control Method and Apparatus"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2024-cn-beam-control
 excerpt: 'Chinese Patent - Beam control method and apparatus.'
 date: 2024-08-01

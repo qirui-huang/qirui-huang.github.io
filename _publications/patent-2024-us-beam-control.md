@@ -1,7 +1,7 @@
 ---
 title: "Patent: Beam Control Method and Apparatus"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2024-us-beam-control
 excerpt: 'US Patent - Beam control method and apparatus for wireless communications.'
 date: 2024-10-01

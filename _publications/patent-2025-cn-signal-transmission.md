@@ -1,7 +1,7 @@
 ---
 title: "Patent: Signal Transmission Method and Apparatus"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2025-cn-signal-transmission
 excerpt: 'Chinese Patent - Signal transmission method and apparatus.'
 date: 2025-01-01

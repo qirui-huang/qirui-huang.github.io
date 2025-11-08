@@ -1,7 +1,7 @@
 ---
 title: "Patent: Laser System and Laser System Control Method"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2023-cn-laser-system-control
 excerpt: 'Chinese Patent - Laser system and control method.'
 date: 2023-12-01

@@ -1,7 +1,7 @@
 ---
 title: "Patent: A Laser System"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2022-cn-laser-system
 excerpt: 'Chinese Patent - A laser system for communication applications.'
 date: 2022-09-01

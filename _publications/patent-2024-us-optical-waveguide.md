@@ -1,7 +1,7 @@
 ---
 title: "Patent: Optical Waveguide Device, Optical Chip, and Communication Device"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2024-us-optical-waveguide
 excerpt: 'US Patent - Optical waveguide device for communication systems.'
 date: 2024-05-01

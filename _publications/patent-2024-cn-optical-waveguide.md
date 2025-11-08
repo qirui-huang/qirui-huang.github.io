@@ -1,7 +1,7 @@
 ---
 title: "Patent: Optical Waveguide Device, Optical Chip, Communication Device"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2024-cn-optical-waveguide
 excerpt: 'Chinese Patent - Optical waveguide device and optical chip.'
 date: 2024-04-01

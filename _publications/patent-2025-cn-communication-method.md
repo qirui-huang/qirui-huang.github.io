@@ -1,7 +1,7 @@
 ---
 title: "Patent: Communication Method, Apparatus and Readable Storage Medium"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2025-cn-communication-method
 excerpt: 'Chinese Patent - Communication method and apparatus.'
 date: 2025-01-03

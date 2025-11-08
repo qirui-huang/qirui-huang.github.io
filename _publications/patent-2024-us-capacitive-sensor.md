@@ -1,7 +1,7 @@
 ---
 title: "Patent: Capacitive Sensor, Electronic Device, and Electronic Device Control Method"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2024-us-capacitive-sensor
 excerpt: 'US Patent - Capacitive sensor for electronic devices.'
 date: 2024-11-01

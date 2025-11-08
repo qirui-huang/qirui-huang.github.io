@@ -1,7 +1,7 @@
 ---
 title: "Patent: Positioning Method, Transmit End, Receive End and Computer-Readable Storage Medium"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2023-cn-positioning
 excerpt: 'Chinese Patent - Positioning method for wireless communication systems.'
 date: 2023-10-01

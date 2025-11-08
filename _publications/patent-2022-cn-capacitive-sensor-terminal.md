@@ -1,7 +1,7 @@
 ---
 title: "Patent: Capacitive Sensor, Terminal Device, Sensor Component and Detection Method"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2022-cn-capacitive-sensor-terminal
 excerpt: 'Chinese Patent - Capacitive sensor for terminal devices and detection method.'
 date: 2022-10-01

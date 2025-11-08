@@ -1,7 +1,7 @@
 ---
 title: "Patent: Positioning Method, Transmit End, Receive End, and Computer-Readable Storage Medium"
 collection: publications
-category: manuscripts
+category: patents
 permalink: /publication/patent-2024-us-positioning-method
 excerpt: 'US Patent - Positioning method for wireless systems.'
 date: 2024-06-01
