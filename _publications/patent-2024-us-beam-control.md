@@ -9,4 +9,3 @@ authors: 'Qirui Huang and Yongjun Liu'
 citation: 'Qirui Huang and Yongjun Liu, "Beam Control Method and Apparatus," US20240364398A1, 2024.'
 ---
 
-**Patent Number:** US20240364398A1

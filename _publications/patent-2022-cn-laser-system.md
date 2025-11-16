@@ -9,4 +9,3 @@ authors: '刘永俊; 黄启睿'
 citation: '刘永俊; 黄启睿, "一种激光系统", CN114982077A, 2022.'
 ---
 
-**Patent Number:** CN114982077A

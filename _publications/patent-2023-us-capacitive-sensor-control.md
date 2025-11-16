@@ -9,4 +9,3 @@ authors: 'Gang Ni, Xijin Tan, Qirui Huang, Lifeng Sun, Huimin Zhang, Yida Li'
 citation: 'Gang Ni, Xijin Tan, Qirui Huang, Lifeng Sun, Huimin Zhang, Yida Li, "CAPACITIVE SENSOR, ELECTRONIC DEVICE, AND ELECTRONIC DEVICE CONTROL METHOD," US20230015735A1, 2023.'
 ---
 
-**Patent Number:** US20230015735A1
