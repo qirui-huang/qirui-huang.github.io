@@ -4,6 +4,6 @@ collection: publications
 category: manuscripts
 permalink: /publication/2025-01-deep-learning-remote-sensing
 date: 2025-01-01
-venue: 'To be submitted'
-citation: 'Pan Lai, Jing Xiao, Qinglong Ma, Heng Zhao, Shihua Zhang, Ke Yao, Qirui Huang. (2025). &quot;Deep Learning for Remote Sensing Image Classification.&quot; <i>To be submitted</i>.'
+venue: 'to be submitted'
+citation: 'Pan Lai, Jing Xiao, Qinglong Ma, Heng Zhao, Shihua Zhang, Ke Yao, Qirui Huang, "Deep Learning for Remote Sensing Image Classification", to be submitted, 2025.'
 ---

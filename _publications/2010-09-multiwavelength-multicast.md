@@ -5,5 +5,5 @@ category: manuscripts
 permalink: /publication/2010-09-multiwavelength-multicast
 date: 2010-09-01
 venue: 'IEEE/OSA Journal of Optical Communications and Networking'
-citation: 'Qirui Huang, and Wen-De Zhong. (2010). &quot;Multiwavelength multicast packet switch: performance analysis and evaluation.&quot; <i>IEEE/OSA Journal of Optical Communications and Networking</i>, vol. 2, no. 9, pp. 678-688.'
+citation: 'Qirui Huang, and Wen-De Zhong, "Multiwavelength multicast packet switch: performance analysis and evaluation," IEEE/OSA Journal of Optical Communications and Networking, vol. 2, no. 9, pp. 678-688, Sept. 2010.'
 ---

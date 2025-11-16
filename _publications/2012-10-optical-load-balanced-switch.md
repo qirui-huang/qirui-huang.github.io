@@ -5,5 +5,5 @@ category: manuscripts
 permalink: /publication/2012-10-optical-load-balanced-switch
 date: 2012-10-01
 venue: 'Optics Express'
-citation: 'Qirui Huang, Yong-Kee Yeo, and Luying Zhou. (2012). &quot;A single-stage optical load-balanced switch for data centers.&quot; <i>Optics Express</i>, vol. 20, no. 22, pp. 25014-25021.'
+citation: 'Qirui Huang, Yong-Kee Yeo, and Luying Zhou, "A single-stage optical load-balanced switch for data centers," Optics Express, vol. 20, no. 22, pp. 25014-25021, Oct. 2012.'
 ---

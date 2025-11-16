@@ -1,11 +1,11 @@
 ---
-title: "Positioning Method, Transmit End, Receive End and Computer-Readable Storage Medium"
+title: "定位方法、发送端、接收端及计算机可读存储介质"
 collection: publications
 category: patents
 permalink: /publication/patent-2025-cn-positioning-method
-date: 2025-01-02
+date: 2025-02-01
 venue: 'Chinese Patent'
-citation: '刘永俊; 黄启睿; 刘畅. (2025). &quot;定位方法、发送端、接收端及计算机可读存储介质.&quot; Chinese Patent CN116034592B.'
+citation: '刘永俊; 黄启睿; 刘畅, "定位方法、发送端、接收端及计算机可读存储介质", CN116034592B, 2025.'
 ---
 
 **Patent Number:** CN116034592B

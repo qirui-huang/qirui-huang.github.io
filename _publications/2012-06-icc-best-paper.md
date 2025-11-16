@@ -4,8 +4,6 @@ collection: publications
 category: conferences
 permalink: /publication/2012-06-icc-best-paper
 date: 2012-06-01
-venue: 'IEEE International Conference on Communications (ICC)'
-citation: 'Luying Zhou, Zhaowen Xu, Xiaofei Cheng, Yong-Kee Yeo, and Qirui Huang. (2012). &quot;A dynamic wavelength resource allocation capable passive optical network with shared transceivers.&quot; <i>Proc. ICC 2012</i>, Ottawa, Canada. <b>(ICC 2012 Best Paper Award)</b>'
+venue: 'ICC 2012'
+citation: 'Luying Zhou, ZhaowenXu, Xiaofei Cheng, Yong-Kee, Yeo, and Qirui Huang, "A dynamic wavelength resource allocation capable passive optical network with shared transceivers," in Proc. ICC 2012, Ottawa, Canada, 2012. (ICC 2012 Best Paper Award)'
 ---
-
-**ICC 2012 Best Paper Award**

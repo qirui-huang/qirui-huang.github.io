@@ -4,6 +4,6 @@ collection: publications
 category: conferences
 permalink: /publication/2008-02-multicast-modules
 date: 2008-02-01
-venue: 'Optical Fiber Communication Conference (OFC)'
-citation: 'Qirui Huang, and Wen-De Zhong. (2008). &quot;Multicast-enabled optical packet switch architecture utilizing multicast modules.&quot; <i>Proc. OFC 2008</i>, San Diego, CA, Paper OMG4.'
+venue: 'OFC 2008'
+citation: 'Qirui Huang, and Wen-De Zhong, "Multicast-enabled optical packet switch architecture utilizing multicast modules," in Proc. OFC 2008, San Diego, CA, 2008, Paper OMG4.'
 ---

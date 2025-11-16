@@ -4,8 +4,6 @@ collection: publications
 category: conferences
 permalink: /publication/2010-06-wavelength-routed-switches
 date: 2010-06-01
-venue: 'International Conference on Communication Systems (ICCS)'
-citation: 'Wen-De Zhong, and Qirui Huang. (2010). &quot;Wavelength-routed optical multicast packet switches.&quot; <i>Proc. ICCS 2010</i>, Singapore. <b>(Invited Paper)</b>'
+venue: 'ICCS 2010'
+citation: 'Wed-De Zhong, and Qirui Huang, "Wavelength-routed optical multicast packet switches," in Proc. ICCS 2010, Singapore, Invited Paper.'
 ---
-
-**Invited Paper**
