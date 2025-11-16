@@ -4,7 +4,8 @@ collection: publications
 category: patents
 permalink: /publication/patent-2024-cn-beam-control
 date: 2024-08-01
-venue: 'Chinese Patent'
+venue: 'Chinese Patent, CN118489262A, 2024'
+authors: '黄启睿; 刘永俊'
 citation: '黄启睿; 刘永俊, "波束控制方法及装置", CN118489262A, 2024.'
 ---
 
