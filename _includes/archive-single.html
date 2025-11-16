@@ -28,7 +28,7 @@
 
     {% if post.collection == 'publications' %}
       <p style="margin-bottom: 0.3em;"><strong>{{ title }}</strong></p>
-      <p style="margin-top: 0; margin-bottom: 1.5em;">{{ post.authors }}. <i>{{ post.venue }}</i></p>
+      <p style="margin-top: 0; margin-bottom: 1.5em;">{{ post.authors | replace: "Qirui Huang", "<strong>Qirui Huang</strong>" | replace: "黄启睿", "<strong>黄启睿</strong>" }}. <i>{{ post.venue }}</i></p>
     {% else %}
       <h2 class="archive__item-title" itemprop="headline">
         {% if post.link %}
