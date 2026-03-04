@@ -100,12 +100,6 @@ Awards & Honors
 * Third Award, IEEE Singapore Section Research Paper Contest, 2007
 * Academic Research Paper Award, Huazhong University of Science and Technology, 2006
 
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-
 Professional Membership
 ======
 * IEEE Senior Member
