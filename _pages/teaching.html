@@ -1,12 +1,12 @@
 ---
 layout: archive
-title: "Teaching"
+title: "Research"
 permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<h2>Towards Efficient Unified Multimodal Models: A Hybrid Mamba-Transformer Approach</h2>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p>
+We propose a 1.4B unified multimodal model that combines Mamba (SSM) and Transformer layers in a hybrid backbone with modal-aware Mixture-of-Experts routing, supporting both image understanding and text-to-image generation within a single autoregressive framework; our base model achieves <strong>33.89% on MMMU</strong> (zero-shot), outperforming Chameleon-7B (33.78%), UniToken-7B (33.44%), and Emu3-8B (24.89%), while approaching DeepSeek Janus-Pro-1B (35.67%) — an instruction-tuned model — with only <strong>0.36B active parameters</strong> per forward pass, demonstrating strong parameter efficiency through top-2 MoE routing across 8 experts.
+</p>
