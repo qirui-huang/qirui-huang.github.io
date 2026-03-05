@@ -11,6 +11,12 @@ Bridging strategic technology planning and hands-on AI research, I lead a team d
 
 **Openings (Updated Mar 2026):** AI researcher and research intern positions available in Singapore — send your CV to huang.qirui@ieee.org.
 
-<div style="margin-top: 30px; text-align: center;">
+<div style="margin-top: 60px; text-align: center;">
+  <h3 style="margin-bottom: 6px;">Visitor Statistics</h3>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <p style="font-size: 14px; color: #666; margin-bottom: 20px;">
+    Total visits: <span id="busuanzi_value_site_pv">...</span> &nbsp;|&nbsp;
+    Unique visitors: <span id="busuanzi_value_site_uv">...</span>
+  </p>
   <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=w955CNkX-6WabSqGGghrD_affZRoQjU1hpeYwPavSsg&cl=ffffff&w=a"></script>
 </div>
