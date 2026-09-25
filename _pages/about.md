@@ -9,7 +9,7 @@ redirect_from:
 
 Bridging strategic technology planning and hands-on AI research, I lead a team driving the multimodal AI roadmap while remaining deeply engaged in large model research spanning Transformers, Mamba, and Mixture-of-Experts architectures. With extensive experience building large-scale training and inference systems — including GPU cluster orchestration, mixed-precision training, and high-throughput inference optimization — my work spans the full stack from research to production. I have authored 50+ peer-reviewed papers, hold 16 patents, and have secured USD 10M+ in research funding.
 
-**Openings (Updated Mar 2026):** AI researcher and research intern positions available in Singapore — send your CV to huang.qirui@ieee.org.
+**Openings (Updated Sep 2026):** AI researcher and research intern positions available in Singapore — send your CV to huang.qirui@ieee.org.
 
 <div style="margin-top: 60px; text-align: center;">
   <h3 style="margin-bottom: 6px;">Visitor Statistics</h3>
