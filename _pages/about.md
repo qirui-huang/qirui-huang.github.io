@@ -18,5 +18,5 @@ Bridging strategic technology planning and hands-on AI research, I lead a team d
     Total visits: <span id="busuanzi_value_site_pv">...</span> &nbsp;|&nbsp;
     Unique visitors: <span id="busuanzi_value_site_uv">...</span>
   </p>
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=w955CNkX-6WabSqGGghrD_affZRoQjU1hpeYwPavSsg&cl=ffffff&w=a"></script>
+  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=w955CNkX-6WabSqGGghrD_affZRoQjU1hpeYwPavSsg&cl=ffffff&w=a&t=tt"></script>
 </div>
