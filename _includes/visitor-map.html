@@ -39,7 +39,8 @@
       }),
       onRegionTooltipShow: function (event) { event.preventDefault(); }
     });
-    // jsVectorMap doesn't track container size itself; keep it fitted to the column.
+    /* jsVectorMap doesn't track container size itself; keep it fitted to the column.
+       (Block comment on purpose: the site's HTML compressor joins lines, which breaks // comments.) */
     if (window.ResizeObserver) {
       new ResizeObserver(function () { map.updateSize(); }).observe(document.getElementById('visitor-map'));
     }
