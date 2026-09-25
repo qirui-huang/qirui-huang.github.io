@@ -41,8 +41,17 @@
     });
     /* jsVectorMap doesn't track container size itself; keep it fitted to the column.
        (Block comment on purpose: the site's HTML compressor joins lines, which breaks // comments.) */
+    function fitWorld() {
+      map.updateSize();
+      /* updateSize() keeps the old zoom, which is wrong if the map started at zero width; the
+         map isn't zoomable, so always snap back to the whole-world view. */
+      map.scale = map._baseScale;
+      map.transX = map._baseTransX;
+      map.transY = map._baseTransY;
+      map._applyTransform();
+    }
     if (window.ResizeObserver) {
-      new ResizeObserver(function () { map.updateSize(); }).observe(document.getElementById('visitor-map'));
+      new ResizeObserver(fitWorld).observe(document.getElementById('visitor-map'));
     }
   })();
 </script>
