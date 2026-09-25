@@ -18,13 +18,9 @@ Bridging strategic technology planning and hands-on AI research, I lead a team d
     Total visits: <span id="busuanzi_value_site_pv">...</span> &nbsp;|&nbsp;
     Unique visitors: <span id="busuanzi_value_site_uv">...</span>
   </p>
-  <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=w955CNkX-6WabSqGGghrD_affZRoQjU1hpeYwPavSsg&cl=ffffff&w=a&t=tt"></script>
-  {% if site.data.visitor_countries %}
-  <p style="font-size: 14px; color: #666; margin: 20px 0 8px;">Visits by country</p>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 20px; font-size: 14px;">
-    {% for c in site.data.visitor_countries.countries %}
-    <span style="display: inline-flex; align-items: center; gap: 6px;"><img src="https://flagcdn.com/w40/{{ c.code }}.png" alt="" width="24" height="16" style="border: 1px solid #ddd;">{{ c.name }} <strong>{{ c.visits }}</strong></span>
-    {% endfor %}
+  <!-- Hidden MapMyVisitors widget: still records visits; the map below shows its all-time totals -->
+  <div style="display: none;">
+    <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=w955CNkX-6WabSqGGghrD_affZRoQjU1hpeYwPavSsg&cl=ffffff&w=a&t=tt"></script>
   </div>
-  {% endif %}
+  {% include visitor-map.html %}
 </div>

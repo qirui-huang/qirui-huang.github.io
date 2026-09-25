@@ -1,30 +1,40 @@
 {
-  "total_pageviews": 51,
+  "total_pageviews": 42,
   "countries": [
     {
       "code": "sg",
       "name": "Singapore",
-      "visits": 29
+      "visits": 29,
+      "lat": 1.352083,
+      "lng": 103.819836
     },
     {
       "code": "us",
       "name": "United States",
-      "visits": 8
+      "visits": 8,
+      "lat": 37.09024,
+      "lng": -95.712891
     },
     {
       "code": "hk",
       "name": "Hong Kong",
-      "visits": 2
+      "visits": 2,
+      "lat": 22.396428,
+      "lng": 114.109497
     },
     {
       "code": "au",
       "name": "Australia",
-      "visits": 2
+      "visits": 2,
+      "lat": -25.274398,
+      "lng": 133.775136
     },
     {
       "code": "cn",
       "name": "China",
-      "visits": 1
+      "visits": 1,
+      "lat": 35.86166,
+      "lng": 104.195397
     }
   ]
 }

@@ -1,0 +1,47 @@
+{% comment %}
+  World map with one dot per visitor country, sized by visits.
+  Data comes from _data/visitor_countries.json, refreshed by the
+  "Update Visitor Countries" workflow from MapMyVisitors all-time totals.
+{% endcomment %}
+{% assign vc = site.data.visitor_countries %}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap@1.7.0/dist/jsvectormap.min.css">
+<div style="background: #2d78ad;">
+  <div style="padding-top: 6px; color: #fff; font-size: 14px; font-weight: bold;">{{ vc.total_pageviews }} Total Pageviews</div>
+  <div id="visitor-map" style="width: 100%; aspect-ratio: 2 / 1;"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.7.0/dist/jsvectormap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap@1.7.0/dist/maps/world.js"></script>
+<script>
+  (function () {
+    var countries = {{ vc.countries | jsonify }};
+    var max = Math.max.apply(null, countries.map(function (c) { return c.visits; }));
+    var map = new jsVectorMap({
+      selector: '#visitor-map',
+      map: 'world',
+      backgroundColor: 'transparent',
+      draggable: false,
+      zoomButtons: false,
+      zoomOnScroll: false,
+      regionStyle: {
+        initial: { fill: '#ffffff', stroke: '#2d78ad', strokeWidth: 0.5, fillOpacity: 1 },
+        hover: { fillOpacity: 1, cursor: 'default' }
+      },
+      markerStyle: {
+        initial: { fill: '#f8a400', stroke: '#ffffff', strokeWidth: 1, strokeOpacity: 1 },
+        hover: { fill: '#ff0000', cursor: 'pointer' }
+      },
+      markers: countries.filter(function (c) { return c.lat != null; }).map(function (c) {
+        return {
+          name: c.name + ': ' + c.visits + (c.visits === 1 ? ' visit' : ' visits'),
+          coords: [c.lat, c.lng],
+          style: { initial: { r: 3 + 7 * Math.sqrt(c.visits / max) } }
+        };
+      }),
+      onRegionTooltipShow: function (event) { event.preventDefault(); }
+    });
+    // jsVectorMap doesn't track container size itself; keep it fitted to the column.
+    if (window.ResizeObserver) {
+      new ResizeObserver(function () { map.updateSize(); }).observe(document.getElementById('visitor-map'));
+    }
+  })();
+</script>
