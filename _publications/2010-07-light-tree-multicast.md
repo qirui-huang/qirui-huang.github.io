@@ -2,6 +2,7 @@
 title: "Light-tree based multicast traffic grooming in WDM mesh networks"
 collection: publications
 category: conferences
+research_area: optical
 permalink: /publication/2010-07-light-tree-multicast
 date: 2010-07-01
 venue: 'OECC 2010, Sapporo, Japan, pp 274-275'

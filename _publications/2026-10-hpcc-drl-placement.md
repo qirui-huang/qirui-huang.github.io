@@ -2,6 +2,7 @@
 title: "Deep Reinforcement Learning for Joint Application Placement and Resource Allocation in Heterogeneous Multi-Server Systems"
 collection: publications
 category: conferences
+research_area: systems
 permalink: /publication/2026-10-hpcc-drl-placement
 date: 2026-10-01
 venue: '2026 IEEE International Conference on High Performance Computing and Communications (HPCC), Luoyang, China, 2026, Accepted'

@@ -2,6 +2,7 @@
 title: "Parallel-stage-based Reconfigurable Optical Add-Drop Multiplexer for WDM Optical Transport Networks"
 collection: publications
 category: manuscripts
+research_area: optical
 permalink: /publication/2006-09-parallel-stage-oadm
 date: 2006-09-01
 venue: 'IEEE Photonics Technology Letters, vol. 18, pp. 1864-1866, Sept. 2006'

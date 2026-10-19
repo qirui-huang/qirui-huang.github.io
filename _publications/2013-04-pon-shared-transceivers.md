@@ -2,6 +2,7 @@
 title: "A passive optical network with shared transceivers for dynamical resource allocation"
 collection: publications
 category: manuscripts
+research_area: optical
 permalink: /publication/2013-04-pon-shared-transceivers
 date: 2013-04-01
 venue: 'IEEE Transactions on Communications, vol. 61, no. 4, pp. 1554-1561, April 2013'

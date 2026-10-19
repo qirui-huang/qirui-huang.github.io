@@ -2,6 +2,7 @@
 title: "Performance Evaluation of Selective Fixed-filter Active Noise Control based on Different Convolutional Neural Networks"
 collection: publications
 category: conferences
+research_area: acoustics
 permalink: /publication/2022-08-selective-anc-cnn
 date: 2022-08-01
 venue: 'INTER-NOISE and NOISE-CON Congress and Conference Proceedings (InterNoise22), Glasgow, Scotland, 2022'

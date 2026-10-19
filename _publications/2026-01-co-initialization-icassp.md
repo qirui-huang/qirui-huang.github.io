@@ -2,6 +2,7 @@
 title: "Co-Initialization of Control Filter and Secondary Path via Meta-Learning for Active Noise Control"
 collection: publications
 category: conferences
+research_area: acoustics
 permalink: /publication/2026-01-co-initialization-icassp
 date: 2026-01-01
 venue: '2026 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), Barcelona, Spain, 2026'

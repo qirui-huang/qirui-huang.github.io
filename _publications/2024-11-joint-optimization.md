@@ -2,6 +2,7 @@
 title: "Joint optimization of application placement and resource allocation for enhanced performance in heterogeneous multi-server systems"
 collection: publications
 category: manuscripts
+research_area: systems
 permalink: /publication/2024-11-joint-optimization
 date: 2024-11-01
 venue: 'Computer Networks, vol 253, Nov. 2024'

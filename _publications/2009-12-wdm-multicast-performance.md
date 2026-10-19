@@ -2,6 +2,7 @@
 title: "Performance evaluation of a WDM optical packet switch with multicast capability"
 collection: publications
 category: conferences
+research_area: optical
 permalink: /publication/2009-12-wdm-multicast-performance
 date: 2009-12-01
 venue: 'ICICS 2009, Macau, P. R. China, 2009, pp 1-4'

@@ -1,0 +1,8 @@
+{% assign pubs = site.publications | where: "research_area", include.area | sort: "date" | reverse %}
+{% if pubs.size > 0 %}
+<ul class="research-pubs">
+  {% for p in pubs %}
+  <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a><br><span class="research-pubs__venue">{{ p.venue }}</span></li>
+  {% endfor %}
+</ul>
+{% endif %}

@@ -2,6 +2,7 @@
 title: "An optical circuit switching network architecture and reconfiguration schemes for datacenter"
 collection: publications
 category: manuscripts
+research_area: optical
 permalink: /publication/2015-01-optical-circuit-switching
 date: 2015-01-01
 venue: 'Optics Communications, vol. 335, pp. 250-256, Jan. 2015'

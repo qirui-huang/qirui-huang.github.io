@@ -2,6 +2,7 @@
 title: "Commercial Optical Switches"
 collection: publications
 category: books
+research_area: optical
 permalink: /publication/2018-01-book-chapter
 date: 2018-01-01
 venue: 'Optical Switching in Next Generation Data Centers, Springer, 2018, pp. 203 – 219'

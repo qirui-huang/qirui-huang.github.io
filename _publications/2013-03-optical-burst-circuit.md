@@ -2,6 +2,7 @@
 title: "Optical burst-over-circuit switching for multi-granularity traffic in data centers"
 collection: publications
 category: conferences
+research_area: optical
 permalink: /publication/2013-03-optical-burst-circuit
 date: 2013-03-01
 venue: 'OFC/NFOEC 2013, Anaheim, CA, 2013, Paper OW3H5'

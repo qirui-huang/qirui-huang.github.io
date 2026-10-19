@@ -5,22 +5,167 @@ permalink: /research/
 author_profile: true
 ---
 
-<h2>Towards Efficient Unified Multimodal Models: A Hybrid Mamba-Transformer Approach</h2>
 
-<p>
-We propose a 1.4B unified multimodal model that combines Mamba (SSM) and Transformer layers in a hybrid backbone with modal-aware Mixture-of-Experts routing, supporting both image understanding and text-to-image generation within a single autoregressive framework; our base model achieves <strong>33.89% on MMMU</strong> (zero-shot), outperforming Chameleon-7B (33.78%), UniToken-7B (33.44%), and Emu3-8B (24.89%), while approaching DeepSeek Janus-Pro-1B (35.67%) — an instruction-tuned model — with only <strong>0.36B active parameters</strong> per forward pass, demonstrating strong parameter efficiency through top-2 MoE routing across 8 experts.
+<style>
+  .research-intro { font-size: 1.05em; }
+  .research-topics { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 1.5em 0 2.5em; }
+  .research-topics a { display: block; padding: 14px 16px; border: 1px solid var(--global-border-color); border-radius: 8px; text-decoration: none; color: inherit; }
+  .research-topics a:hover { border-color: var(--global-link-color); }
+  .research-topics strong { display: block; margin-bottom: 4px; color: var(--global-link-color); }
+  .research-topics span { font-size: 0.85em; color: var(--global-text-color-light); }
+  .research-section { margin-top: 3em; padding-top: 0.5em; border-top: 1px solid var(--global-border-color); }
+  .research-section h2 { margin-top: 0.6em; }
+  .research-tag { display: inline-block; margin-left: 8px; padding: 1px 8px; border: 1px solid var(--global-border-color); border-radius: 10px; font-size: 0.6em; font-weight: normal; vertical-align: middle; color: var(--global-text-color-light); }
+  .research-highlights li { margin-bottom: 0.4em; }
+  .research-figure { margin: 1.5em 0; text-align: center; }
+  .research-figure img { width: 100%; background: #fff; padding: 8px; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+  .research-figure--narrow img { max-width: 720px; }
+  .research-figure figcaption { font-family: inherit; font-size: 0.85em; color: var(--global-text-color-light); margin-top: 6px; }
+  .research-pubs { font-size: 0.9em; }
+  .research-pubs li { margin-bottom: 0.6em; }
+  .research-pubs__venue { color: var(--global-text-color-light); font-style: italic; }
+  .research-section details summary { cursor: pointer; font-weight: bold; margin: 1em 0 0.5em; }
+</style>
+
+<p class="research-intro">
+I lead an industrial AI research lab in Singapore. My work spans the AI stack: the systems that train and serve large models, the foundation models themselves, and the agents and devices that put them to use. A common thread is efficiency, getting frontier-level capability from models and infrastructure that are small, fast and affordable enough to deploy.
 </p>
 
-<h3>Text-to-Image Generation Results</h3>
-
-<div style="display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 12px;">
-  <div style="flex: 1; min-width: 280px; text-align: center;">
-    <img src="/images/research/stage2_castle.png" alt="Generated castle landscapes" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-    <p style="font-size: 0.85em; color: #555; margin-top: 6px;">Text-to-image generation: <em>"a castle on a mountain cliff at sunset"</em> — 8 samples</p>
-  </div>
-  <div style="flex: 1; min-width: 280px; text-align: center;">
-    <img src="/images/research/stage2_snow.png" alt="Generated snowy mountain landscapes" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);">
-    <p style="font-size: 0.85em; color: #555; margin-top: 6px;">Text-to-image generation: <em>"a snowy mountain landscape"</em> — 8 samples</p>
-  </div>
+<div class="research-topics">
+  <a href="#multimodal"><strong>Efficient Multimodal Models</strong><span>Mamba-Transformer hybrids for unified understanding and generation</span></a>
+  <a href="#world-models"><strong>World Models</strong><span>Long-horizon video, real-time interactive worlds and 3D scene generation</span></a>
+  <a href="#agentic-ai"><strong>Agentic AI</strong><span>Multi-agent systems with long-term memory for autonomous, tool-using AI</span></a>
+  <a href="#systems"><strong>LLM Systems</strong><span>Training and inference engines, and prefix caching for hybrid LLMs</span></a>
+  <a href="#acoustics"><strong>AI for Acoustics</strong><span>Deep-learning active noise control and spatial audio</span></a>
 </div>
 
+<!-- ===================================================================== -->
+<div class="research-section" id="multimodal">
+<h2>Efficient Multimodal Foundation Models <span class="research-tag">Ongoing</span></h2>
+
+<h3>A Mamba-Transformer hybrid for unified multimodal understanding and generation</h3>
+
+<p>
+Unified multimodal models are usually dense Transformers, so their attention cost and KV cache grow with every token of context. Our model replaces most attention layers with Mamba-2 state-space layers. Each block pairs one Transformer layer with five Mamba-2 layers whose projections form a modality-aware mixture of experts: a parameter-free mask sends text and image tokens to separate expert pools, and a learned router picks one expert within the pool. Images are read through a dual visual tokenizer (VQGAN codes plus SigLIP features) and generated autoregressively as discrete tokens. Understanding and generation are trained jointly from the start, with no separate alignment stage.
+</p>
+
+<ul class="research-highlights">
+  <li><strong>1.7B parameters, 0.39B active per token</strong>, with top-1 routing over 8 experts per layer.</li>
+  <li><strong>GenEval 0.70</strong> for text-to-image generation, within 0.03 of Janus-Pro-1B and Show-o2 with about a quarter of their active parameters.</li>
+  <li><strong>Long context on a single GPU.</strong> At 1M tokens, prefill is 15.8× faster than Qwen3.5-2B (21.2 s vs 334.7 s) with 26% lower peak memory. Full-attention unified models (Show-o, Janus-Pro) run out of memory beyond 256K tokens. At 128K, decoding runs at 141 tokens/s, 4.6× faster than Qwen3.5-2B.</li>
+  <li><strong>Scaling up:</strong> a 6.3B-parameter version (1.59B active) is in training.</li>
+</ul>
+
+<figure class="research-figure">
+  <img src="{{ "/images/research/unified-mm-overview.jpg" | relative_url }}" alt="Model architecture: one hybrid backbone for text and image understanding and generation, with a dual visual tokenizer">
+  <figcaption>One hybrid backbone reads and generates both text and images; images enter through a dual tokenizer (VQGAN + SigLIP).</figcaption>
+</figure>
+
+<figure class="research-figure">
+  <img src="{{ "/images/research/unified-mm-t2i-samples.jpg" | relative_url }}" alt="Eight text-to-image samples generated by the 1.7B model with their prompts">
+  <figcaption>Text-to-image samples from the 1.7B model (256×256).</figcaption>
+</figure>
+
+<figure class="research-figure research-figure--narrow">
+  <img src="{{ "/images/research/unified-mm-geneval.png" | relative_url }}" alt="GenEval overall score versus activated parameters per token for unified multimodal models">
+  <figcaption>GenEval overall score against activated parameters per token.</figcaption>
+</figure>
+
+<figure class="research-figure">
+  <img src="{{ "/images/research/unified-mm-efficiency.png" | relative_url }}" alt="Peak memory, prefill latency and decode throughput at 128K, 512K and 1M tokens for Show-o, Janus-Pro, Mamba2, Qwen3.5-2B and our model">
+  <figcaption>Peak memory, prefill latency and decode throughput at 128K, 512K and 1M tokens (one H200, batch 1).</figcaption>
+</figure>
+</div>
+
+<!-- ===================================================================== -->
+<div class="research-section" id="world-models">
+<h2>World Models <span class="research-tag">Ongoing</span></h2>
+
+<p>
+World models learn to simulate how an environment evolves and responds to actions, a foundation for embodied AI, interactive media and planning. I founded and lead a research initiative on world models with three threads:
+</p>
+<ul>
+  <li><strong>Long-horizon video generation</strong> that stays consistent as a scene unfolds.</li>
+  <li><strong>Real-time interactive world generation</strong> that responds to user actions as it renders.</li>
+  <li><strong>3D scene generation</strong> for explorable, geometrically consistent environments.</li>
+</ul>
+<p>
+The initiative also works backwards to infrastructure, defining what next-generation training and serving systems need to support these models.
+</p>
+</div>
+
+<!-- ===================================================================== -->
+<div class="research-section" id="agentic-ai">
+<h2>Agentic AI <span class="research-tag">Ongoing</span></h2>
+
+<p>
+Multi-agent systems in which LLM agents plan, use tools and collaborate over long tasks. We build agent-memory modules that let agents keep and retrieve what they have learned across sessions, and we study how multi-agent workloads stress the serving stack. That question leads directly to the prefix-caching work below.
+</p>
+</div>
+
+<!-- ===================================================================== -->
+<div class="research-section" id="systems">
+<h2>LLM Systems &amp; Infrastructure</h2>
+
+<h3>Training and inference engine for production LLMs</h3>
+<p>
+Led development of the training and inference engine behind a production LLM family, achieving a 10× speed-up over Microsoft DeepSpeed.
+</p>
+
+<h3>Prefix caching for hybrid LLMs <span class="research-tag">In progress</span></h3>
+<p>
+Hybrid LLMs interleave attention with linear-attention or state-space layers. To reuse a cached prefix, a serving engine needs both the attention KV for the prefix and the recurrent state at exactly its end. Paged engines such as vLLM manage KV block by block but keep recurrent state only at a few positions chosen by KV rules, so a KV hit is often unusable and the shared prefix is recomputed. Our approach makes the unit of caching an <em>anchor</em>: the recurrent state at a position, bound to the KV before it, and registered, looked up and evicted as one entry. A lightweight scoring head on the frozen model decides where to place anchors.
+</p>
+<ul class="research-highlights">
+  <li>Replaying 5,076 recorded calls from five multi-agent frameworks on Qwen3.5-4B in vLLM, <strong>7.9% of all prefill tokens were recomputed despite a KV hit</strong>.</li>
+  <li>In our vLLM implementation, generated tokens and log-probabilities after restoring from anchors were <strong>bitwise identical</strong> to recomputing from scratch on all 409 validation requests.</li>
+</ul>
+
+<figure class="research-figure">
+  <img src="{{ "/images/research/hybrid-prefix-cache-cases.png" | relative_url }}" alt="Four ways a shared prefix goes unused in a hybrid LLM: no snapshot in the shared prefix, only an earlier snapshot, a snapshot removed before reuse, and a snapshot without its attention KV">
+  <figcaption>Four ways a cached prefix goes unused when attention KV and recurrent state are managed separately (schematic).</figcaption>
+</figure>
+
+<h3>Resource allocation for heterogeneous computing</h3>
+<p>
+Deep reinforcement learning for jointly placing applications and allocating resources across heterogeneous multi-server systems.
+</p>
+{% include research-pubs.html area="systems" %}
+</div>
+
+<!-- ===================================================================== -->
+<div class="research-section" id="acoustics">
+<h2>AI for Acoustics</h2>
+
+<p>
+Deep learning for active noise control (ANC) in earbuds and vehicle cabins, with collaborators at Nanyang Technological University. Classical adaptive ANC converges slowly and struggles with fast-changing noise, so our work replaces or initializes the adaptive loop with learned components:
+</p>
+<ul>
+  <li><strong>Selective and generative fixed-filter ANC:</strong> neural networks choose or synthesize control filters without adding delay.</li>
+  <li><strong>Meta-learned initialization</strong> of control filters and secondary paths (APSIPA ASC 2025 Best Workshop Paper; ICASSP 2026).</li>
+  <li><strong>Continual learning</strong> and <strong>Transformer-based end-to-end filter generation</strong>.</li>
+  <li><strong>Prompt-guided ANC</strong> that cancels noise while preserving sound from chosen directions.</li>
+  <li><strong>Spatial audio:</strong> robust stereo 3-D sound event localization and detection.</li>
+</ul>
+{% include research-pubs.html area="acoustics" %}
+</div>
+
+<!-- ===================================================================== -->
+<div class="research-section" id="earlier">
+<h2>Earlier Research</h2>
+
+<h3>Optical switching for data centers and HPC (2007–2015)</h3>
+<p>
+At Nanyang Technological University and A*STAR's Institute for Infocomm Research: optical packet and circuit switching for large-scale data centers and supercomputers, including multicast-capable wavelength-routed packet switches, large port-count optical cross-connects, load-balanced optical switches and dynamic resource allocation in passive optical networks. This work produced a photonic switch prototype for large-scale data centers and the IEEE ICC 2012 Best Paper Award.
+</p>
+<details>
+  <summary>Publications</summary>
+  {% include research-pubs.html area="optical" %}
+</details>
+
+<h3>Network security (2015–2018)</h3>
+<p>
+At the Singapore University of Technology and Design: data-driven enterprise network security. Led the CISDeM project (7 research tracks), building a research testbed and hybrid cloud infrastructure and a next-generation security operations center framework that combines big data, intrusion detection, SDN/NFV and machine learning.
+</p>
+{% include research-pubs.html area="security" %}
+</div>

@@ -2,6 +2,7 @@
 title: "Optical interconnection in embedded-fiber printer circuit boards"
 collection: publications
 category: manuscripts
+research_area: optical
 permalink: /publication/2008-01-optical-interconnection-pcb
 date: 2008-01-01
 venue: 'Optik - International Journal for Light and Electron Optics, vol. 119, no. 1, pp. 45-50, Jan 2008'

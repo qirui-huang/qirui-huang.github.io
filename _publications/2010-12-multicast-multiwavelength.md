@@ -2,6 +2,7 @@
 title: "An optical multicast packet switch using multiwavelength converters and shared fiber delay lines"
 collection: publications
 category: conferences
+research_area: optical
 permalink: /publication/2010-12-multicast-multiwavelength
 date: 2010-12-01
 venue: 'IEEE Photonics Global 2010, Singapore, 2010'

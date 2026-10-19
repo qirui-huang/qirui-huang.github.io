@@ -2,6 +2,7 @@
 title: "Wavelength-routed optical multicast packet switches"
 collection: publications
 category: conferences
+research_area: optical
 permalink: /publication/2010-06-wavelength-routed-switches
 date: 2010-06-01
 venue: 'ICCS 2010, Singapore, Invited Paper'

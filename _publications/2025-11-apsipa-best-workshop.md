@@ -2,6 +2,7 @@
 title: "Meta-Learned Regional Initialization of Control Filters for Headphone Active Noise Control"
 collection: publications
 category: conferences
+research_area: acoustics
 permalink: /publication/2025-11-apsipa-best-workshop
 date: 2025-11-01
 venue: '2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC Best Workshop Paper), Singapore, 2025'

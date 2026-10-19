@@ -2,6 +2,7 @@
 title: "Fully Reconfigurable Optical Add-Drop Multiplexer Based on Parallel Configuration Using Mach-Zehnder Module"
 collection: publications
 category: manuscripts
+research_area: optical
 permalink: /publication/2007-01-reconfigurable-oadm
 date: 2007-01-01
 venue: 'Optics Communications, vol. 269, no. 1, pp. 113-118, Jan. 2007'

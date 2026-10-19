@@ -2,6 +2,7 @@
 title: "Combining circuit and packet switching using a large port-count optical cross-connect for data center networks"
 collection: publications
 category: manuscripts
+research_area: optical
 permalink: /publication/2012-10-combining-circuit-packet
 date: 2012-10-01
 venue: 'Optics Communications, vol. 285, no. 21-22, pp. 4268-4274, Oct. 2012'

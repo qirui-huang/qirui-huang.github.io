@@ -2,6 +2,7 @@
 title: "Multiwavelength multicast packet switch: performance analysis and evaluation"
 collection: publications
 category: manuscripts
+research_area: optical
 permalink: /publication/2010-09-multiwavelength-multicast
 date: 2010-09-01
 venue: 'IEEE/OSA Journal of Optical Communications and Networking, vol. 2, no. 9, pp. 678-688, Sept. 2010'

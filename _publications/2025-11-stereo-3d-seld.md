@@ -2,6 +2,7 @@
 title: "Towards Robust Stereo 3-D SELD: A Study of Perceptual Features and Data Augmentation"
 collection: publications
 category: conferences
+research_area: acoustics
 permalink: /publication/2025-11-stereo-3d-seld
 date: 2025-11-01
 venue: '2025 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC), Singapore, 2025'
